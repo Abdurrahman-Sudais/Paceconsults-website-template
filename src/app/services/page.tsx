@@ -7,7 +7,7 @@ import { services } from "@/data/services";
 
 export const metadata: Metadata = {
   title: "Services",
-  description: "Land surveying, GIS & mapping, real-estate consultancy and sustainable construction in Oyo State.",
+  description: "Land surveying, GIS & mapping, real-estate consultancy and sustainable construction across Nigeria.",
 };
 
 const steps = [
@@ -26,7 +26,7 @@ export default function ServicesPage() {
         image="/images/land-track.jpg"
         alt="A track curving across open land"
         title="Surveyors first. Then everything else."
-        sub="Surveying, GIS, consultancy and construction, from one firm in Oyo."
+        sub="Surveying, GIS, consultancy and construction — one firm, from Oyo to Lagos."
       />
 
       <section className="mt-24" aria-labelledby="intro">

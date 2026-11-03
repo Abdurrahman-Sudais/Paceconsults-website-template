@@ -7,7 +7,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "Careers",
-  description: "Work at Pace Consults in Oyo town — sales, social media, front desk and HR roles.",
+  description: "Work at Pace Consults, head office in Oyo town — sales, social media, front desk and HR roles.",
 };
 
 // Update this list as roles open and close.
@@ -28,7 +28,7 @@ export default function CareersPage() {
         image="/images/team.jpg"
         alt="The Pace Consults team in the office"
         imagePosition="center 30%"
-        title="Work at Pace, Oyo town."
+        title="Build a career at Pace."
         sub="Join a young team that surveys, sells and builds — and has fun doing it."
       />
 
@@ -40,7 +40,7 @@ export default function CareersPage() {
             <a key={r.t} href="#apply" className={`group grid grid-cols-[1fr_20px] items-center gap-1.5 border-b border-rule py-6.5 md:grid-cols-[4fr_3fr_2fr_20px] md:gap-6 ${i === 0 ? "border-t" : ""}`}>
               <b className="text-[22px] font-normal tracking-[-0.02em] text-green">{r.t}</b>
               <span className="text-sm text-grey max-md:col-start-1">{r.d}</span>
-              <span className="text-sm text-grey max-md:hidden">Full time · Oyo town</span>
+              <span className="text-sm text-grey max-md:hidden">Full time · Head office, Oyo</span>
               <ArrowUpRight className="transition-transform group-hover:translate-x-0.5 group-hover:-translate-y-0.5 max-md:col-start-2 max-md:row-start-1" />
             </a>
           ))}

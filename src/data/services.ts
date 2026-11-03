@@ -44,7 +44,7 @@ export const services: Service[] = [
     name: "Real Estate Consultancy",
     short: "Brokerage, land banking and retainer advice.",
     intro:
-      "Your brokerage and surveying firm in Oyo State. We help you buy right, land-bank for the future and sell with clean paperwork.",
+      "Your brokerage and surveying firm, from Oyo to Lagos. We help you buy right, land-bank for the future and sell with clean paperwork.",
     image: "/images/office-2.jpg",
     offers: [
       { name: "Brokerage & listings", body: "Buy or sell land and homes, with documents checked by surveyors." },
