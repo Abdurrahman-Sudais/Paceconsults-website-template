@@ -6,7 +6,7 @@ import { site } from "@/data/site";
 
 export const metadata: Metadata = {
   title: "About",
-  description: `${site.legalName} (${site.rc}) — a surveying and real-estate firm from Oyo town.`,
+  description: `${site.legalName} (${site.rc}) — a Nigerian surveying and real-estate firm, headquartered in Oyo.`,
 };
 
 // Add photos to /public/images and set `photo` when available.
@@ -47,7 +47,7 @@ export default function AboutPage() {
         alt="The Pace Consults team in the office, in white shirts and orange ties"
         imagePosition="center 30%"
         title="We are Pace. We set the pace."
-        sub={`A surveying and real-estate firm from Oyo town, registered with CAC as ${site.rc}.`}
+        sub={`A Nigerian surveying and real-estate firm, headquartered in Oyo, with estates in Oyo, Ibadan and Lagos. Registered with CAC as ${site.rc}.`}
       />
 
       <section className="mt-24" aria-labelledby="story">

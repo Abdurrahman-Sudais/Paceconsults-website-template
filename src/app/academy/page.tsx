@@ -6,7 +6,7 @@ import WhatsAppForm from "@/components/WhatsAppForm";
 
 export const metadata: Metadata = {
   title: "Pace Real Estate Academy",
-  description: "A capacity-building programme for the next generation of realtors in Oyo State.",
+  description: "A capacity-building programme for the next generation of Nigerian realtors.",
 };
 
 const modules = [
@@ -38,7 +38,7 @@ export default function AcademyPage() {
         alt="An Academy cohort celebrating with their certificates"
         imagePosition="center 35%"
         title="Pace Real Estate Academy."
-        sub="A capacity-building programme for the next generation of realtors in Oyo State."
+        sub="A capacity-building programme for the next generation of Nigerian realtors."
         cta={{ href: "#join", label: "Join the Next Cohort" }}
       />
 

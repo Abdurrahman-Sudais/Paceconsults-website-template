@@ -4,9 +4,9 @@ export const site = {
   name: "Pace Consults",
   legalName: "Pace Associate & Integrated Consults Ltd",
   rc: "RC 7362467",
-  tagline: "Setting the pace for land in Oyo.",
+  tagline: "Setting the pace for land in Nigeria.",
   watchword: "Prosperity for all.",
-  url: "https://paceconsults.com",
+  url: "https://paceconsults.ng",
   address: {
     line1: "Pace Building, beside Alapo Bridge",
     line2: "Abiodun Atiba Road, Oyo, Oyo State 211271",

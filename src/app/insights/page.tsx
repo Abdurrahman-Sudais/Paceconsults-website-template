@@ -6,9 +6,9 @@ import { Label, TextLink } from "@/components/ui";
 import { articles } from "@/data/articles";
 
 export const metadata: Metadata = {
-  title: "Insights — guides to buying land in Oyo and Nigeria",
+  title: "Insights — guides to buying land in Nigeria",
   description:
-    "Plain-English guides on buying land in Oyo and Nigeria: land documents, survey plans, avoiding fraud, buying from abroad and the housing market.",
+    "Plain-English guides on buying land in Nigeria: land documents, survey plans, avoiding fraud, buying from abroad and the housing market.",
   alternates: { canonical: "/insights" },
 };
 
@@ -22,7 +22,7 @@ export default function InsightsPage() {
         image="/images/land-tractor.jpg"
         alt="Farmland with hay bales under a blue sky"
         title="Buy and wait. Don't wait and buy."
-        sub="Plain-English guides to buying land safely in Oyo and across Nigeria."
+        sub="Plain-English guides to buying land safely across Nigeria."
       />
 
       <section className="mt-24" aria-labelledby="ft">

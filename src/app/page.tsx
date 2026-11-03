@@ -22,19 +22,20 @@ export default function Home() {
     <main className="page">
       <Hero
         current="/"
-        image="/images/hero-land.jpg"
-        alt="The Pace team out on open land in Oyo, with boundary poles marking the plots"
+        image="/images/hero-survey.jpg"
+        alt="Pace surveyors setting up a total station and GNSS rover on site"
+        imagePosition="70% 35%"
         title={site.tagline}
-        sub="Surveyed, documented and allocated. Now selling Orange County in Oyo and Epe, Lagos."
+        sub="Surveyors first. Estates across Oyo, Ibadan and Lagos — surveyed, documented and allocated."
         cta={{ href: "/contact", label: "Book an Inspection" }}
-        coord="7°51′N 3°56′E · Oyo town"
+        coord="Oyo · Ibadan · Lagos"
       />
 
       {/* Intro + pillars */}
       <section aria-label="Why Pace" className="relative z-[3] grid gap-10 md:-mt-16 md:grid-cols-[5fr_7fr]">
         <div className="flex flex-col justify-between gap-10 pt-8 md:pt-24">
           <p className="max-w-[46ch]">
-            {site.legalName} is a surveying and real-estate firm in Oyo town. We survey every plot before we sell it, so you get clean land and your documents from day one.
+            {site.legalName} is a surveying and real-estate firm headquartered in Oyo, with estates in Oyo, Ibadan and Lagos. We survey every plot before we sell it, so you get clean land and your documents from day one.
           </p>
           <TextLink href="/estates">Find Your Plot</TextLink>
         </div>
@@ -100,12 +101,12 @@ export default function Home() {
 
 
       <section className="sec" aria-labelledby="why-oyo">
-        <Label>Why Oyo</Label>
+        <Label>Where We Work</Label>
         <div className="grid items-start gap-14 md:grid-cols-2">
           <div>
-            <h2 id="why-oyo" className="h-big max-w-[14ch]">The Pace-setter city is still early.</h2>
+            <h2 id="why-oyo" className="h-big max-w-[16ch]">Rooted in Oyo. Building across Nigeria.</h2>
             <p className="mt-6 max-w-[46ch]">
-              Nigeria is short of 17 to 28 million homes. Oyo town sits where the Ibadan, Ogbomoso, Iseyin and Ilorin roads meet, with a new Ogbomoso expressway, universities and new development arriving. Land here is priced for today, not for what is coming.
+              Nigeria is short of 17 to 28 million homes. We started in Oyo town, where the Ibadan, Ogbomoso, Iseyin and Ilorin roads meet, and now survey and sell land in Ibadan and Lagos too — always early, where roads, schools and new development are arriving.
             </p>
             <p className="mt-4 max-w-[46ch]">Buy and wait. Don't wait and buy.</p>
             <ul className="list mt-8 max-w-[520px]">
@@ -113,6 +114,7 @@ export default function Home() {
               <li><span>North</span><span>Velora, Primo and Ìdèra — near Ajayi Crowther University and the Oyo–Ogbomoso roads</span></li>
               <li><span>West</span><span>Orange County Oyo, Balogun, off Iseyin Expressway</span></li>
               <li><span>Ibadan</span><span>Ilé Ìrè, Ido — near Eleyele and the Ladoke Akintola station</span></li>
+              <li><span>Lagos</span><span>Orange County Epe, off the Epe–Ijebu Ode Expressway</span></li>
             </ul>
           </div>
           <figure>
@@ -128,7 +130,7 @@ export default function Home() {
             <Label>Our People</Label>
             <h2 id="people" className="h-big max-w-[14ch]">The team that walks the land with you.</h2>
             <p className="mt-6 max-w-[44ch]">
-              Surveyors, engineers, consultants and realtors, based in Oyo town. The same faces meet you at inspection, at allocation and on site.
+              Surveyors, engineers, consultants and realtors, headquartered in Oyo and on site wherever you buy. The same faces meet you at inspection, at allocation and on site.
             </p>
             <TextLink href="/about" className="mt-7">Meet the team</TextLink>
           </div>
