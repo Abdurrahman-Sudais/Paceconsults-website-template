@@ -22,8 +22,9 @@ export default function Home() {
     <main className="page">
       <Hero
         current="/"
-        image="/images/hero-land.jpg"
-        alt="The Pace team out on open land in Oyo, with boundary poles marking the plots"
+        image="/images/hero-survey.jpg"
+        alt="Pace surveyors setting up a total station and GNSS rover on site in Oyo"
+        imagePosition="70% 35%"
         title={site.tagline}
         sub="Surveyed, documented and allocated. Now selling Orange County in Oyo and Epe, Lagos."
         cta={{ href: "/contact", label: "Book an Inspection" }}
