@@ -22,9 +22,9 @@ export default function Home() {
     <main className="page">
       <Hero
         current="/"
-        image="/images/hero-survey.jpg"
+        image="/images/hero-survey-wide.jpg"
         alt="Pace surveyors setting up a total station and GNSS rover on site"
-        imagePosition="70% 35%"
+        imagePosition="50% 40%"
         title={site.tagline}
         sub="Surveyors first. Estates across Oyo, Ibadan and Lagos — surveyed, documented and allocated."
         cta={{ href: "/contact", label: "Book an Inspection" }}
