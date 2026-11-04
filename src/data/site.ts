@@ -14,7 +14,7 @@ export const site = {
   },
   phones: ["0703 468 0780", "0817 367 6999", "0816 878 1298"],
   whatsapp: "2347034680780",
-  email: "paceconsultltd@gmail.com",
+  email: "info@paceconsults.ng",
   instagram: "https://www.instagram.com/paceconsult_associates/",
   instagramHandle: "@paceconsult_associates",
   facebook: "https://www.facebook.com/61578585044124/",
