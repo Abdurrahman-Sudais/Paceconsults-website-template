@@ -39,6 +39,7 @@ export default function ContactPage() {
             </a>
           ))}
         </div>
+        <p className="note">Also on {site.phones.slice(1).join(" and ")}.</p>
       </section>
 
       <section className="sec" aria-labelledby="book">
