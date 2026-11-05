@@ -39,7 +39,7 @@ export default function ContactPage() {
             </a>
           ))}
         </div>
-        <p className="note">Also on {site.phones.slice(1).join(" and ")}.</p>
+        <p className="note">Also on <a href={telHref(site.phones[1])} className="underline underline-offset-4">{site.phones[1]}</a>.</p>
       </section>
 
       <section className="sec" aria-labelledby="book">
