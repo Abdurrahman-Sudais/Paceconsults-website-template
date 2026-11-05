@@ -12,7 +12,7 @@ export const site = {
     line2: "Abiodun Atiba Road, Oyo, Oyo State 211271",
     mapUrl: "https://maps.google.com/?q=Alapo+Bridge+Abiodun+Atiba+Road+Oyo",
   },
-  phones: ["0703 468 0780", "0817 367 6999", "0816 878 1298"],
+  phones: ["0703 468 0780"],
   whatsapp: "2347034680780",
   email: "info@paceconsults.ng",
   instagram: "https://www.instagram.com/paceconsult_associates/",
