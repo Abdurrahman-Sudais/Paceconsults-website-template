@@ -33,7 +33,7 @@ export default function ContactPage() {
         <h2 id="reach" className="h-sec mb-8">Four ways to talk to Pace.</h2>
         <div className="grid grid-cols-2 gap-1 md:grid-cols-4">
           {ways.map((w) => (
-            <a key={w.k} href={w.href} className="flex min-h-[130px] flex-col justify-between bg-field p-5.5 transition-colors hover:bg-[#ececE7] md:min-h-[180px]">
+            <a key={w.k} href={w.href} className="flex min-h-[130px] flex-col justify-between bg-[#fff3ea] p-5.5 transition-colors hover:bg-[#ffe6d3] md:min-h-[180px]">
               <small className="text-[13px] text-grey">{w.k}</small>
               <b className="break-words text-[17px] font-normal tracking-[-0.02em] text-green md:text-[22px]">{w.v}</b>
             </a>
