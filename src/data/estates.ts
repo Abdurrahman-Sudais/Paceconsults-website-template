@@ -266,10 +266,10 @@ export const estates: Estate[] = [
     status: "selling",
     tagline: "Now selling.",
     summary:
-      "Plots off the Oyo–Ogbomoso Expressway, near Primo Phase 1, Velora and Sabo Market — ₦900k per plot, ₦500k to start and the balance within 2 months.",
+      "Plots off the Oyo–Ogbomoso Expressway, near Primo Phase 1, Velora and Sabo Market — ₦1M per plot, ₦500k to start and the balance within 2 months.",
     title: "Registered survey plan",
     pricesAsAt: "Current flyer",
-    plans: [{ size: "Per plot", price: 900_000, deposit: 500_000, months: 2 }],
+    plans: [{ size: "Per plot", price: 1_000_000, deposit: 500_000, months: 2 }],
     documents: ["Allocation letter", "Deed of Agreement", "Payment receipt"],
     landmarks: [
       { name: "Primo Phase 1" },
